@@ -21,4 +21,4 @@ The database has already been created for you. The demand should default to `You
 
 //👉 Write the function your CodeWarriors will start with below here:
 
-function catDemands(time) {}
+export default function catDemands(time) {}
