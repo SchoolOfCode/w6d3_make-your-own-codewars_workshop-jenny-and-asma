@@ -1,7 +1,7 @@
 /* 
 👉 Write your kata here!
 
-Write a function which take the time of day as an argument and returns a string explaining what your cat is demanding.
+Write a function which takes the time of day as an argument and returns a string explaining what your cat is demanding.
 
 The database has already been created for you. The demand should default to `Your cat is sleeping. Leave them alone.` if the time entered is not in the database.
 
@@ -35,8 +35,4 @@ const catDatabase = {
   3: `I see dead people...it's time to play.`,
 };
 
-export default function catDemands(time) {
-  if (catDatabase[time]) {
-    return catDatabase[time];
-  }
-}
+export default function catDemands(time) {}
